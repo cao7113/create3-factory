@@ -3,5 +3,10 @@ version: "3"
 tasks:
   install: forge install
   build: forge build
-  deploy: deploy/deploy.sh zkfair-testnet
+  dep-zkfair-test: deploy/deploy.sh zkfair-testnet
   # cat deployments/zkfair-testnet.json
+  dep-x1-test: deploy/deploy.sh x1-testnet
+  setup:
+    deps:
+      - install
+      - build
