@@ -38,6 +38,7 @@ bsc-testnet = "${RPC_URL_BSC_TESTNET}"
 scroll-alpha = "${RPC_URL_SCROLL_ALPHA}"
 zkfair-testnet = "${RPC_URL_ZKFAIR_TESTNET}"
 zkfair =  "${RPC_URL_ZKFAIR}"
+x1-testnet = "${RPC_URL_X1_TESTNET}"
 
 [etherscan]
 mainnet = { key = "${ETHERSCAN_KEY}" }
@@ -61,4 +62,5 @@ sepolia = { key = "${ETHERSCAN_KEY}" }
 mumbai = { key = "${POLYGONSCAN_KEY}", url = "https://api-testnet.polygonscan.com/api" }
 arbitrum-goerli = { key = "${ARBISCAN_KEY}", url = "https://api-goerli.arbiscan.io/api" }
 zkfair-testnet = { key = "${ZKFAIRSCAN_KEY}", url = "https://testnet-scan.zkfair.io/api" }
+x1-testnet = { key = "${X1SCAN_KEY}", url = "https://www.oklink.com/api" }
 # See more config options https://github.com/foundry-rs/foundry/tree/master/config
